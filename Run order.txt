@@ -1,0 +1,9 @@
+Morning before games:
+1. python daily_update.py
+2. python -m streamlit run app.py
+3. Click Save Today’s Predictions
+
+Next morning:
+4. python daily_update.py
+5. python -c "from prediction_tracker import score_predictions; score_predictions()"
+6. Check Model Performance tab

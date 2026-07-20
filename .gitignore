@@ -1,0 +1,111 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled Python Extensions
+*.so
+
+# Distribution / Packaging
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===========================
+# Virtual Environments
+# ===========================
+venv/
+.venv/
+env/
+ENV/
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+
+# ===========================
+# Streamlit
+# ===========================
+.streamlit/secrets.toml
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+
+# ===========================
+# Machine Learning Models
+# ===========================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.ckpt
+
+# ===========================
+# Training Data (Optional)
+# ===========================
+data/
+datasets/
+
+# Uncomment if you DON'T want to upload CSV files
+# *.csv
+
+# ===========================
+# Cached Files
+# ===========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# ===========================
+# Operating System Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ===========================
+# IDE Files
+# ===========================
+.idea/
+*.iml
